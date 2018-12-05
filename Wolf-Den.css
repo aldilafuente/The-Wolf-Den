@@ -3,3 +3,30 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/*.primer-parte {
+    display: flex;
+ }*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.logo {width: 150px; height: 150px;}
+.first {
+    display: flex;
+    border: 1px solid black; 
+    background-color: rgb(96, 255, 157); 
+    width: 60%; 
+    text-align: center; 
+    align-items: center;
+    margin-top: 40px;
+}
+
+.first a {padding: 20px; text-decoration: none; width: 20%;}
+.first a:hover {background-color: white;}
+
+
