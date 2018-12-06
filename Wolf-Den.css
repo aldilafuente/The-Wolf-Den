@@ -1,5 +1,6 @@
 body {
-    background: plum;
+    /* background-image: url(./FireCloud.png); */
+    background-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -23,6 +24,10 @@ body {
     text-align: center;
     margin-left: 5%;
     font-family: 'Unlock', cursive;
+    background-color: wheat;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .nav-bar a {
@@ -32,7 +37,16 @@ body {
     text-decoration: none;
 }
 
-.nav-bar a:hover {background-color: dimgray;}
+.signs {
+    width: 40px;
+}
+
+.nav-bar a:hover {
+    background-color: dimgray;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
 
 .banner {
     background-image: url(./PlaceOfPower.svg);
