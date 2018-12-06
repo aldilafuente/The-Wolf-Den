@@ -4,9 +4,9 @@ body {
     padding: 0;
 }
 
-.primer-parte {background-color: slateblue;}
+.primer-parte {background-color: slateblue; width: 85%; margin: auto;}
 
-.logo {width: 150px; height: 150px; padding-left: 40px;}
+.logo {width: 150px; height: 150px; padding-left: 55px;}
 
 .first {
     display: flex;
@@ -19,9 +19,9 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 70%;
-    border: 1px solid white;
+    border: 4px double white;
     text-align: center;
-    margin-left: 8%;
+    margin-left: 5%;
     font-family: 'Unlock', cursive;
 }
 
@@ -33,5 +33,31 @@ body {
 }
 
 .nav-bar a:hover {background-color: dimgray;}
+
+.banner {
+    background-image: url(./PlaceOfPower.svg);
+    background-size: 100%;
+    margin: auto;
+    margin-top: 15px;
+    width: 85%;
+    height: 40%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.intro {
+    display: inline-block;
+    margin-left: 133px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    border: 5px double white;
+    padding: 10px;
+}
+
+.intro h2 {
+    text-align: center;
+}
 
 
